@@ -1,0 +1,20 @@
+    1  bash VBoxAddditions.run
+    2  ls
+    3  bash VBoxLinuxAdditions.run 
+    4  sudo bash VBoxLinuxAdditions.run 
+    5  editcap
+    6  apt-get install -y virtualbox-guest-x11
+    7  sudo apt-get install -y virtualbox-guest-x11
+    8  sudo apt-get update
+    9  sudo apt-get install -y virtualbox-guest-x11
+   10  reboot
+   11  sudo su
+   12  id
+   13  sudo usermod -aG vboxsf 1000
+   14  sudo usermod -aG vboxsf qwerty
+   15  sudo adduser $USER vboxsf
+   16  mkdir ~/week1
+   17  cd ~/week1/
+   18  ls /usr/bin | grep "gcc" | sort -r > ex1.txt
+   19  cat ex1.txt 
+   20  history > ex2.txt
