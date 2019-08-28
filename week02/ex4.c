@@ -10,6 +10,7 @@ void swap(int* a, int* b){
 int main() {
     int a, b;
     char line[100];
+    printf("Please, enter two numbers:");
     fgets(line, sizeof(line), stdin);
     sscanf(line, "%d %d", &a, &b);
     printf("a is %d, b is %d\n", a, b);
