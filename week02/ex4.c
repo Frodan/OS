@@ -16,4 +16,5 @@ int main() {
     printf("a is %d, b is %d\n", a, b);
     swap(&a, &b);
     printf("a is %d, b is %d after swap.\n", a, b);
+    return 0;
 }
