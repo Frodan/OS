@@ -51,4 +51,5 @@ int main(int argc, char* argv[]) {
     else{
         print_rectangle(height);
     }
+    return 0;
 }
