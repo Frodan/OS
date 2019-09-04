@@ -20,6 +20,6 @@ int main(int argc, char* argv[]) {
         print_n_chars(num_of_spaces, ' ');
         printf("\n");
     }
-
+    return 0;
 
 }
