@@ -7,4 +7,5 @@ int main() {
     for (int i = strlen(str); i >= 0; i--){
         printf("%c", str[i]);
     }
+    return 0;
 }
