@@ -1,0 +1,5 @@
+Physical address refers to real memory location, it physically exists.
+
+Virtual address is not real memory location. We can have more virtual addresses,
+then we actually physically have. Cpu generates this addresses.
+They are mapped to the physical addresses during run time.

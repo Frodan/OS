@@ -1,0 +1,2 @@
+After "top -d 1" command we can see, that virtual memory for our process is increasing.
+Also, here will be some additional information about process.

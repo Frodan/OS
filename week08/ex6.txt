@@ -1,0 +1,4 @@
+With a 16-bit address and 8-KB page size, we need 13 bits in address
+to specify the byte offset(because 8-KB is 2**13 bytes).
+So we have only 3 bits for entry number.
+Thus we have 2**3 = 8 entries.
