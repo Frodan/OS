@@ -1,0 +1,11 @@
+With input
+1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10
+and 10 number of page frames, we will get
+Hit:20, Miss:10, Hit/miss:2.000000
+Because it is a circle, with 10 miss with fillin in the page frames at the start.
+
+With input 
+1 2 3 4 5 6 7 8 9 10 11 1 2 3 4 5 6 7 8 9 10 11 1 2 3 4 5 6 7 8 9 10 11
+and 10 number of page frames, we will get
+Hit:6, Miss:27, Hit/miss:0.222222
+Because it is also circle, but its size is bigger, then number of page frames.
