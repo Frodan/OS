@@ -1,0 +1,20 @@
+Command:
+link ../lab01/file.txt _ex2.txt
+Output:
+
+
+Command:
+ls -i _ex2.txt
+Output:
+945143 _ex2.txt
+
+Command:
+find .. -inum 945143
+Output:
+../lab10/_ex2.txt
+../lab01/file.txt
+
+Command:
+find .. -inum 945143 -exec rm {} \;
+Output:
+

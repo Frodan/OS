@@ -1,0 +1,9 @@
+After removing execute permission:
+-rw-r--r-- (644)
+After all permissions to owner and others(not group):
+-rwx---rwx (707)
+After group permissions equal to user permissions:
+-rwxrwxrwx (777)
+660 means -rw-rw---- (read\write for owner and group)
+775 means -rwxrwxr-x (all perms for owner and group, others can only read\execute)
+777 means -rwxrwxrwx (all perms for all)
