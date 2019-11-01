@@ -1,0 +1,12 @@
+Output 1:
+Hello
+Hello
+Output 2:
+Hello
+
+
+
+UNIX terminals uses line buffering by default.
+Buffer is copied with use of fork, first program will have two buffers with "Hello" inside.
+So, after printf("\n") text from both terminals will be printed.
+In second will be printed only one "Hello" and 3 "\n" because of '\n' before fork().
