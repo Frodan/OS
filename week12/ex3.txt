@@ -1,0 +1,24 @@
+My kek.txt contain 914 characters.
+with  -DBUF_SIZE=1 command "time ./copy kek.txt kek1.txt" will return:
+real	0m0.004s
+user	0m0.000s
+sys	0m0.003s
+
+With -DBUF_SIZE=500 same command will return:
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+So, buffer increases the speed of working with IO.
+
+With O_SYNC flag and buffer size = 1:
+real	0m3.772s
+user	0m0.000s
+sys	0m0.137s
+
+With O_SYNC flag and buffer size = 500:
+real	0m0.009s
+user	0m0.001s
+sys	0m0.000s
+
+So, O_SYNC flag decreases the speed of working with IO.
